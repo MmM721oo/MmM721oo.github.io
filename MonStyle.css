@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 nov. 2023, 10:45:35
+    Author     : mohamedwali.melkaoui
+*/
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 101%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 18px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: activecaption;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#toto{
+    font-family: fantasy ;
+
+}
+
+p{
+   font-weight: bold ;
+}
+
+.navbar input {
+  color: grey;
+  padding: 3px 1px;
+  
+}
+

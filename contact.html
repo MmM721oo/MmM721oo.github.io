@@ -19,7 +19,19 @@ and open the template in the editor.
             <a href="index.html">Acceuil</a>
             <a href="">Telecharger Fortnite</a>
             <a href="contact.html">Mecanique</a>
-            <input type="text" placeholder="Recherche...">
+            <input type="search" value="" id="search" onchange="ouvrirPage()">
+            <script>
+                    function ouvrirPage(){
+                        var a = document.getElementById("search").value;
+                        
+                        if(a ==="meca"){
+                            window.open("/contact.html");
+                        }
+                        if(a ==="acceuil"){
+                            window.open("/index.html");
+                        }
+                    }
+            </script>
         </div>
 
         <div class="main">

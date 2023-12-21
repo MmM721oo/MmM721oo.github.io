@@ -10,10 +10,10 @@ and open the template in the editor.
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: grey;
+  background-color: black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 101%; /* Full width */
+  width: 150%; /* Full width */
 }
 
 /* Links inside the navbar */
@@ -21,8 +21,8 @@ and open the template in the editor.
   float: left;
   display: block;
   color: white;
-  text-align: center;
-  padding: 5px 18px;
+  text-align: left;
+  padding: 3px 20px;
   text-decoration: none;
 }
 
@@ -50,4 +50,3 @@ p{
     border-radius: 30px;
     border: 2px solid black;
 }
-
